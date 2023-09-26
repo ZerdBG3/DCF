@@ -1,6 +1,8 @@
 Disable Critical Fails on Skill and Ability Checks for Baldur's Gate 3
 =======
 
+![DisableCritFails](https://github.com/ZerdBG3/DCF/assets/40004649/4c1e7df7-7381-43bf-9711-8caaa0c7df29)
+
 # Discord
 
 [![Discord Banner 4](https://discordapp.com/api/guilds/767878527634243624/widget.png?style=banner2)](https://discord.gg/FFKTbzKktj)
