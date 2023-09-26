@@ -1,0 +1,9 @@
+# Compressed file for Vortex compatibility
+*.zip
+*.rar
+
+# Pak file with the latest release
+*.pak
+
+# Local stash
+Stash/

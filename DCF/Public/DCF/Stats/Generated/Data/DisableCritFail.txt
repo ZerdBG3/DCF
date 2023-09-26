@@ -1,0 +1,14 @@
+new entry "RAW_DisableSkillCheckCritFail"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "Boosts" "MinimumRollResult(RawAbility,2);MinimumRollResult(SkillCheck,2)"
+
+new entry "_Hero"
+type "Character"
+using "_Hero"
+data "Passives" "ShortResting;NonLethal;WeaponThrow;Perform;AttackOfOpportunity;DarknessRules;CombatStartAttack;RAW_DisableSkillCheckCritFail"
+
+new entry "ORIGIN_Karlach"
+type "Character"
+using "ORIGIN_Karlach"
+data "Passives" "ShortResting;NonLethal;WeaponThrow;Perform;AttackOfOpportunity;DarknessRules;CombatStartAttack;ORI_Karlach_SweatImmune;RAW_DisableSkillCheckCritFail"
