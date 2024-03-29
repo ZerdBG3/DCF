@@ -20,6 +20,10 @@ Disable Critical Fails on Skill and Ability Checks for Baldur's Gate 3
 * The mod adds the minimum roll as a passive to all hero characters, overwriting the `Passives` attribute for both `_Hero` and `ORIGIN_Karlach` stat entries.
 * If you're using any other mod that overwrites those entries, make sure you use [Norbyte's Script Extender](https://github.com/Norbyte/bg3se/releases) (you can follow the installation guide [here](https://github.com/ZerdBG3/RAW/blob/main/Installing.md#requirements)). By using the Script Extender and placing this mod before the conflicting one (or just first in the load order), you'll still get the passive.
 
+# Alternative
+
+* In case you want the opposite of this (always critically failing ability and skill checks) for whatever reason - like seeing dialogues you wouldn't usually see - you can use [this mod by ritzierwizard](https://www.nexusmods.com/baldursgate3/mods/8302).﻿﻿
+
 # Nexus Mods
 
 * If you like it, make sure you Endorse it on the [Nexus Mods page](https://www.nexusmods.com/baldursgate3/mods/2663)
