@@ -9,7 +9,8 @@ Disable Critical Fails on Skill and Ability Checks for Baldur's Gate 3
 
 # Description
 
-* Disables critical fails on skill checks and raw ability checks (like raw strength or dexterity checks - not Saving Throws) by setting the minimum roll as 2. This means you can't roll a 1 anymore, so no more crit fails on dialogues or lockpicking.
+* Disables critical fails on skill checks and raw ability checks (like raw strength or dexterity checks) and saving throws by setting the minimum roll as 2. This means you can't roll a 1 anymore, so no more crit fails on dialogues or lockpicking.
+  - _Unfortunately, due to a technical limitation, Concentration Saving Throws are not covered by this change and might still critically fail_
 * The downside is, of course, the specific cases where a 2 is enough to pass a check but a 1 wouldn't be. So `+3` on a `DC 5` or `+8` on a `DC 10`. On those cases, you have a 5% chance of being unfairly benefited from the mod. However, given the biggest frustration tends to be on `+15` on `DC 10`, I think it's a fair tradeoff.
 * Through testing, I've confirmed that the minimum roll is enforced after the roll, so this doesn't increase your probability of getting higher rolls. You still have a 5% chance of getting any value on dice rolls, but 1's will become 2.
 * This also means that there's no interaction with `Reroll` features, like Halfling's Lucky. Mechanically speaking, the roll is made first, checks for a reroll possibility, returns the raw value of the dice, then it's set to the minimum specificed by the passive. So Halflings will still reroll their 1's in skill/ability checks, but if they roll a 1 again, it'll be increased to a 2.
@@ -22,7 +23,7 @@ Disable Critical Fails on Skill and Ability Checks for Baldur's Gate 3
 
 # Alternative
 
-* In case you want the opposite of this (always critically failing ability and skill checks) for whatever reason - like seeing dialogues you wouldn't usually see - you can use [this mod by ritzierwizard](https://www.nexusmods.com/baldursgate3/mods/8302).﻿﻿
+* In case you want the opposite of this (always critically failing ability and skill checks) for whatever reason - like seeing dialogues you wouldn't usually see - you can use [this mod by ritzierwizard](https://www.nexusmods.com/baldursgate3/mods/8302).
 
 # Nexus Mods
 
